@@ -1,0 +1,15 @@
+digraph {
+    layout = "circo"
+
+    conj [label="&conj"]
+    a
+    b
+    c
+
+    out
+
+    conj -> out [label="Low"]
+    a -> conj [label="High"]
+    b -> conj [label="High"]
+    c -> conj [label="High"]
+}
